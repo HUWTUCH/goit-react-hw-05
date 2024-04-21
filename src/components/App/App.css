@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-height: 600px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  background-color: #2980b9;
+  background-image: linear-gradient(to bottom, #2980b9, #6dd5fa);
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(rgb(201, 214, 255), rgb(226, 226, 226));
+  border-radius: 8px;
+  min-height: 500px;
+}
